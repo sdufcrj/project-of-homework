@@ -250,7 +250,7 @@ void SM4_AESNI_Decrypt(uint8_t* ciphertext, uint8_t* plaintext, SM4_Key* sm4_key
     SM4_AESNI_do(ciphertext, plaintext, sm4_key, 1);
 }
 
-// ======================== 主函数 ========================
+
 int main() {
     double time1;
     unsigned char key[16 * 8] = {
